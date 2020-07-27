@@ -6,11 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MyApp.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controller // controller를 상속받고 있음
     {
-        public IActionResult Index()
+        public IActionResult Student()
         {
-            return View();
+            return View(); //View를 return
         }
     }
 }
